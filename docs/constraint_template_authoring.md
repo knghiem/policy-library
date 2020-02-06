@@ -196,10 +196,10 @@ target_instance_match_count(mode) = 1 {
 To test your rule, create fixtures of the expected resources and constraints
 leveraging your rule. To implement your test cases, gather resource fixtures
 from CAI and place them in a
-<code><em>test/fixtures/resources/<resource_type>/data.json</em></code> file.
+<code><em>test/fixtures/<resource_name>/assets/data.json</em></code> file.
 You can also write a constraint fixture using your constraint template and place
 it in
-<code><em>test/fixtures/constraints/<constraint_name/data.yaml</em></code>.
+<code><em>test/fixtures/<resource_name>/constraints/<constraint_name>/data.yaml</em></code>.
 
 For example, here is a sample constraint used for external IP rule:
 
